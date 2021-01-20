@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+}
+.container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightcoral;
+  border-radius: 50%;
+}
+.card {
+  transform-style: preserve-3d;
+  min-height: 80vh;
+  width: 28rem;
+  border-radius: 30px !important;
+  padding: 0rem 3rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+.title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.sneakers {
+  min-height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sneakers img {
+  width: 20rem;
+  z-index: 2;
+  transition: 0.75s;
+}
+.circle {
+  width: 15rem;
+  height: 15rem;
+  background: linear-gradient(to right, rgba(220, 94, 143, 0.75), rgba(247, 191, 153, 0.75));
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+}
+.info h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  transition: 0.75s;
+}
+.info h3 {
+  font-size: 1rem;
+  padding: 1rem 0rem;
+  color: #585858;
+  font-weight: lighter;
+  transition: 0.75s;
+}
+.sizes {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  transition: 0.75s;
+}
+.sizes button {
+  padding: 0.5rem 1.8rem;
+  background: none;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #585858;
+  outline: none !important;
+  transition: 0.75s;
+}
+.sizes button:hover {
+  background-color: #585858;
+  color: white;
+}
+/* button.active {
+  background-color: #585858;
+  color: white;
+} */
+.purchase {
+  margin-top: 3rem;
+  transition: 0.75s;
+}
+.purchase button {
+  width: 100%;
+  padding: 0.9rem 0rem;
+  background: #f54642;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bolder;
+  outline: none !important;
+}
