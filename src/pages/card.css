@@ -18,8 +18,6 @@
 .container {
   display: flex;
   justify-content: center;
-  background-color: lightcoral;
-  border-radius: 50px;
 }
 .card {
   transform-style: preserve-3d;
